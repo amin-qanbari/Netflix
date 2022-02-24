@@ -1,9 +1,12 @@
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import { GlobalStyle } from "./globalStyles";
 
 function App() {
   return (
     <div className="App">
-     a
+      <GlobalStyle/>
+     <Navbar/>
     </div>
   );
 }
